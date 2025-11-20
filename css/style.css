@@ -1,0 +1,73 @@
+.content-wrapper {
+  position: relative;
+  top: 25px;
+  width: 600px;
+  max-width: fit-content;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #008080;
+  line-height: 1.2;
+}
+
+header {
+  padding: 0px;
+  flex: 1;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+  padding: 0px;
+  gap: 6px;
+}
+
+.left-sidebar,
+.right-sidebar {
+  flex: 1;
+  background: #ffffff;
+  padding: 0px;
+  margin: 3px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.main-content {
+  flex: 2;
+  background: #ffffff;
+  padding: 0px;
+  margin: 3px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  width:600px;
+  margin-top: 6px;
+}
+
+.logo{
+  position: absolute;
+  top:2px;
+  left: 7%;
+  z-index: 99999;
+  width: 100px;
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.98, 1.02); }
+}
