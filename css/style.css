@@ -28,6 +28,7 @@ nav a {
   display: flex;
   max-width: 600px;
   margin: auto;
+  margin-top: 6px;
   padding: 0px;
   gap: 6px;
 }
@@ -58,9 +59,6 @@ footer {
 }
 
 .logo{
-  position: absolute;
-  top:2px;
-  left: 7%;
   z-index: 99999;
   width: 100px;
 }
