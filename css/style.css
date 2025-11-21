@@ -12,6 +12,9 @@ body {
   line-height: 1.2;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: url(assets/bg.jpg) repeat;
+  background-size: 200px 200px;
+  animation: bg-scrolling 60s linear infinite;
 }
 
 header {
@@ -53,22 +56,35 @@ nav a {
 
 footer {
   text-align: center;
-  height:fit-content;
-  width:600px;
+  height: fit-content;
+  width: 600px;
   padding: 0px;
   margin-top: 6px;
 }
 
-.logo{
+.logo {
   z-index: 99999;
   width: 100px;
 }
 
 @keyframes gelatine {
-  from, to { transform: scale(1, 1); }
-  25% { transform: scale(0.9, 1.1); }
-  50% { transform: scale(1.1, 0.9); }
-  75% { transform: scale(0.98, 1.02); }
+
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+
+  75% {
+    transform: scale(0.98, 1.02);
+  }
 }
 
 a.ad {
@@ -78,4 +94,14 @@ a.ad {
 
 a.ad:hover {
   transform: scale(1.02);
+}
+
+@keyframes bg-scrolling {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
 }
