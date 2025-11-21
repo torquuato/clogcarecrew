@@ -1,6 +1,5 @@
 .content-wrapper {
   position: relative;
-  top: 25px;
   width: 600px;
   max-width: fit-content;
   margin: auto;
@@ -11,6 +10,8 @@ body {
   padding: 0;
   background: #008080;
   line-height: 1.2;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 header {
@@ -51,10 +52,10 @@ nav a {
 }
 
 footer {
-  background: #333;
-  color: white;
   text-align: center;
+  height:fit-content;
   width:600px;
+  padding: 0px;
   margin-top: 6px;
 }
 
