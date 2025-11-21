@@ -12,8 +12,8 @@ body {
   line-height: 1.2;
   overflow-y: scroll;
   overflow-x: hidden;
-  background: url(assets/bg.jpg) repeat;
-  background-size: 200px 200px;
+  background: url('') repeat;
+  background-size: 300px 300px;
   animation: bg-scrolling 60s linear infinite;
 }
 
