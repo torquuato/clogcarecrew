@@ -14,7 +14,6 @@ body {
   overflow-x: hidden;
   background: url('https://torquuato.github.io/clogcarecrew/assets/bg.png') repeat;
   background-size: 450px 450px;
-  animation: bg-scrolling 60s linear infinite;
 }
 
 header {
@@ -96,12 +95,3 @@ a.ad:hover {
   transform: scale(1.02);
 }
 
-@keyframes bg-scrolling {
-  from {
-    background-position: 0 0;
-  }
-
-  to {
-    background-position: 100% 100%;
-  }
-}
