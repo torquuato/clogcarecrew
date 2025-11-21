@@ -12,8 +12,8 @@ body {
   line-height: 1.2;
   overflow-y: scroll;
   overflow-x: hidden;
-  background: url('') repeat;
-  background-size: 300px 300px;
+  background: url('https://torquuato.github.io/clogcarecrew/assets/bg.png') repeat;
+  background-size: 450px 450px;
   animation: bg-scrolling 60s linear infinite;
 }
 
